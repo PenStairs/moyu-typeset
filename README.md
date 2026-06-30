@@ -19,7 +19,7 @@ npm install
 npm run dev
 ```
 
-默认地址：`http://127.0.0.1:5173/`
+默认地址：`http://127.0.0.1:3000/`
 
 ## Markdown 输入
 
