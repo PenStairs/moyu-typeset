@@ -1,0 +1,22 @@
+{
+  "name": "themes-offline-preview",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:article": "node scripts/prepare-article.mjs",
+    "dev": "node scripts/run-with-article.mjs dev",
+    "build": "node scripts/run-with-article.mjs build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tabler/icons-webfont": "^3.44.0",
+    "marked": "^18.0.5",
+    "vite": "^8.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
